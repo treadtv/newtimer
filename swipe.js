@@ -239,6 +239,12 @@ var cList;
     
     
   hammertime.on('panend', function (event) {
+      
+            if(started== false){
+       pp1.classList.remove("fa-play"); 
+    pp1.classList.remove("fa-close"); 
+       pp1.classList.add("fa-pause");
+    timeElapsed = setInterval(totalTime,1000);}
       started=true;
       list =  document.querySelectorAll(' .removed');
       prevRemoved = list[list.length-1];
