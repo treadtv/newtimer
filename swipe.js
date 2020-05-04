@@ -8,7 +8,7 @@ var json = {"items": [
  },
  {
    "exerciseName": "Jumping Jacks",
-   "exerciseGif": "workouts//jumping_jacks.gif",
+   "exerciseGif": "workouts//Jumping_Jacks.gif",
     "reps" : "AMRAP",
     "time":"20",
     "calories" :"1"
@@ -26,7 +26,7 @@ var json = {"items": [
  },
  {
   "exerciseName": "Arm Circles",
-  "exerciseGif": "workouts//arm_circles.gif",
+  "exerciseGif": "workouts//Arm_Circles.gif",
     "reps": "20",
     "time":"40"
  },
@@ -38,7 +38,7 @@ var json = {"items": [
  },
  {
   "exerciseName": "Calves Stretch",
-  "exerciseGif": "workouts//calves_stretch.gif",
+  "exerciseGif": "workouts//Calves_Stretch.gif",
     "time":"20"
  }
 ]};
