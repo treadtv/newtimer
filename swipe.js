@@ -302,7 +302,6 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
       event.target.style.transform = 'translate(' + toX + 'px, ' + (toY + event.deltaY) + 'px) rotate(' + rotate + 'deg)';
       
     if (where==1) {
-      card.style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
         clearInterval(time);
     
         if(last!=1 && card2.childElementCount>5){
@@ -322,7 +321,6 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
             countdownSeconds(index1); }, 1000 )
         }
     } else {
-      card.style.transform = 'translate(-' + moveOutWidth + 'px, -100px) rotate(30deg)';
         console.log("kooooooo");
         
         if(!time){
