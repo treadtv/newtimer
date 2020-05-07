@@ -134,6 +134,11 @@ if(started==false){
     timeElapsed = setInterval(totalTime,1000);
     console.log(x);
     x.play();
+    var y = document.getElementsByTagName("video");
+    for(var i=0;i<y.length;i++){
+     y.play=true;   
+    }
+
     if(seconds<=6){
             y.play();
         }
