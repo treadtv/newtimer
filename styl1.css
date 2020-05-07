@@ -91,6 +91,8 @@ body {
   cursor: -webkit-grab;
   cursor: grab;
 }
+ .controlls{
+    pointer-events: none;}
 
 .tinder--card.pause{
   display: inline-block;
@@ -120,6 +122,10 @@ body {
 .tinder--card p {
   pointer-events: none;
 }
+
+.div {
+  pointer-events: none;
+}
 .tinder--card video {
   max-width: 100%;
   pointer-events: none;
@@ -141,7 +147,7 @@ body {
 .tinder--card span {
   font-size: 2em;
 }
-}
+
 #invisible {
     display: none;
 }
