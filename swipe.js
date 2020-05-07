@@ -338,12 +338,13 @@ function theEnd(){
 pp.onclick = function charge() {
 cords = document.querySelectorAll('.tinder--card:not(.removed)'); 
 var parent = cords[0].parentNode;
+    console.log("in here");
 // The equivalent of parent.children.indexOf(child)
 var index = Array.prototype.indexOf.call(parent.children, cords[0]);
 if(started==false){
     createButtoListener(true,1);
     timeElapsed = setInterval(totalTime,1000);
-    console.log(x);
+    
     x.play();
     if(seconds<=6){
             y.play();
@@ -602,7 +603,8 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
   });
 });
 
-var cRemoved;
+var cRemoved;        
+ 
 
 
 function createButtonListener(love,cwhere) {
