@@ -92,6 +92,12 @@ for(var i = 0; i < items.length; i++) {
     div.appendChild(br);
     div.appendChild(p1);
     news.appendChild(div);
+     var z = document.getElementsByTagName("video");
+    for(var i=0;i<z.length;i++){
+     z[i].play();  
+        console.log(z[i].playsinline,z[i].muted,z[i].autoplay,z[i]);
+    }
+    
 }
 /*initializing content above*/
 
@@ -118,6 +124,7 @@ function theEnd(){
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
     newCards[0].childNodes[1].src = "completed.mp4";
+    newCards[0].childNodes[1].play();
     newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
     newCards[0].classList.remove('removed');
@@ -134,9 +141,9 @@ if(started==false){
     timeElapsed = setInterval(totalTime,1000);
     console.log(x);
     x.play();
-    var y = document.getElementsByTagName("video");
-    for(var i=0;i<y.length;i++){
-     y.play=true;   
+    var z = document.getElementsByTagName("video");
+    for(var i=0;i<z.length;i++){
+     z[i].play();   
     }
 
     if(seconds<=6){
