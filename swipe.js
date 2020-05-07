@@ -60,6 +60,8 @@ for(var i = 0; i < items.length; i++) {
     img.loop=true;
     img.muted=true;
     img.playsinline=true;
+    img.setAttribute("playsinline","true");
+    img.setAttribute("muted","true");
     var source = document.createElement("source");
     source.src =  items[i].exerciseGif;
     source.setAttribute("type","video/mp4");
