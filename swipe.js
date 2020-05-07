@@ -1,7 +1,7 @@
 var json = {"items": [
     {
    "exerciseName": "Starfish",
-   "exerciseGif": "workouts/starfish.mp4",
+   "exerciseGif": "https://drive.google.com/uc?export=download&id=1Kyg0XBDSdVuFOFmrFC0qPEJfLCisLgmW",
     "reps" : "AMRAP",
     "time":"20",
     "calories" :"1"
@@ -63,7 +63,7 @@ for(var i = 0; i < items.length; i++) {
     img.setAttribute("playsinline","true");
     img.setAttribute("muted","true");
     var source = document.createElement("source");
-    source.src =  "https://treadtv.github.io/newtimer.github.io/"+items[i].exerciseGif;
+    source.src = items[i].exerciseGif;
     source.setAttribute("type","video/mp4");
     img.appendChild(source);
     
@@ -117,7 +117,7 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[1].src = "https://treadtv.github.io/newtimer.github.io/completed.mp4";
+    newCards[0].childNodes[1].src = "https://github.com/treadtv/videos/completed.mp4";
     newCards[0].childNodes[1].play();
     newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
