@@ -92,12 +92,6 @@ for(var i = 0; i < items.length; i++) {
     div.appendChild(br);
     div.appendChild(p1);
     news.appendChild(div);
-     var z = document.getElementsByTagName("video");
-    for(var i=0;i<z.length;i++){
-     z[i].play();  
-        console.log(z[i].playsinline,z[i].muted,z[i].autoplay,z[i]);
-    }
-    
 }
 /*initializing content above*/
 

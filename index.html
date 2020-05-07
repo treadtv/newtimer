@@ -16,8 +16,12 @@
 </head>
 
 <body>
-
-        <video autoplay loop muted playsinline controls><source src="output.mp4" type="video/mp4"></video>
+<video autoplay loop autobuffer muted playsinline><source src="output.mp4" type="video/mp4"></video>
+    <video autoplay muted loop>
+  <source src="https://googlechrome.github.io/samples/muted-autoplay/chrome-clip.mp4" type="video/mp4">
+  <p>Your browser does not support the video element.</p>
+</video>
+    <!--
   <div class="tinder">
   <div class="tinder--status">
     <i class="fa fa-toggle-left"></i>
@@ -40,6 +44,7 @@
     <button id="love"><i class="fa fa-toggle-right"></i></button>
   </div>
 </div>
+!-->
       <audio id="myAudio">
   <source src="eminemlessgo.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
