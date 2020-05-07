@@ -26,7 +26,7 @@ var json = {"items": [
  },
  {
   "exerciseName": "Arm Circles",
-  "exerciseGif": "workouts//Arm_Circles.mp4",
+  "exerciseGif": "workouts//arm_circles.mp4",
     "reps": "20",
     "time":"40"
  },
@@ -263,8 +263,8 @@ var cList;
     
     
   hammertime.on('panend', function (event) {
-      
-    if(started== false && where==2){
+      console.log(started,where,"tym");
+    if(started==false && where==1){
     pp1.classList.remove("fa-play"); 
     pp1.classList.remove("fa-close"); 
     pp1.classList.add("fa-pause");
