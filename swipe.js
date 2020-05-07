@@ -260,7 +260,6 @@ for(var i = 0; i < items.length; i++) {
     div.className += " tinder--card";
 
     var img = document.createElement("video");
-    img.autoplay=true;
     img.loop=true;
     img.muted=true;
     img.playsinline=true;
@@ -396,12 +395,16 @@ function totalTime(){
             return;
         }
         var secondsSpan = news[index].getElementsByClassName('display-remain-time')[0];
+        var video =news[index].getElementsByTagName('video')[0];
+        video.play();
         if(seconds<=6){
             y.play();
         }
         if(seconds>=1){
         seconds = seconds - 1;}
         else{
+            video.currentTime = 0;
+            video.pause();
             secondsSpan.textContent = "00:00";
             var closer = createButtoListener(true,1);
             console.log("hmmm is it?");
