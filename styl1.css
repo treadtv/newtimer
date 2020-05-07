@@ -39,6 +39,9 @@ body {
 .tinder--card img {
     height: 38vh;    
 }
+.tinder--card video {
+    height: 38vh;    
+}
 
 .tinder--status i {
   font-size: 100px;
@@ -79,7 +82,6 @@ body {
   max-width: 400px;
   height: 70vh;
   background: #FFFFFF;
-  padding-bottom: 40px;
   border-radius: 8px;
   overflow: hidden;
   position: absolute;
@@ -111,6 +113,10 @@ body {
 }
 
 .tinder--card img {
+  max-width: 100%;
+  pointer-events: none;
+}
+.tinder--card video {
   max-width: 100%;
   pointer-events: none;
 }

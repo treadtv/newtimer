@@ -1,14 +1,14 @@
 var json = {"items": [
     {
    "exerciseName": "Starfish",
-   "exerciseGif": "workouts//starfish.gif",
+   "exerciseGif": "workouts//starfish.mp4",
     "reps" : "AMRAP",
     "time":"20",
     "calories" :"1"
  },
  {
    "exerciseName": "Jumping Jacks",
-   "exerciseGif": "workouts//Jumping_Jacks.gif",
+   "exerciseGif": "workouts//jumping_jacks.mp4",
     "reps" : "AMRAP",
     "time":"20",
     "calories" :"1"
@@ -16,32 +16,37 @@ var json = {"items": [
  },
  {
   "exerciseName": "Plank",
-  "exerciseGif": "workouts//plank.gif",
+  "exerciseGif": "workouts//plank.mp4",
     "time":"15"
  },
  {
   "exerciseName": "Arm Cs",
-  "exerciseGif": "workouts//arm_c.gif",
+  "exerciseGif": "workouts//arm_c.mp4",
     "reps": "20",
  },
  {
   "exerciseName": "Arm Circles",
-  "exerciseGif": "workouts//Arm_Circles.gif",
+  "exerciseGif": "workouts//Arm_Circles.mp4",
     "reps": "20",
     "time":"40"
  },
  {
   "exerciseName": "Back Behinds",
-  "exerciseGif": "workouts//back_behinds.gif",
+  "exerciseGif": "workouts//back_behinds.mp4",
     "reps": "20",
     "time":"40"
  },
  {
   "exerciseName": "Calves Stretch",
-  "exerciseGif": "workouts//Calves_Stretch.gif",
+  "exerciseGif": "workouts//Calves_Stretch.mp4",
     "time":"20"
  }
 ]};
+
+
+var x = document.getElementById("myAudio"); 
+var y = document.getElementById("beep"); 
+
 console.log(items)
 var news = document.getElementsByClassName("tinder--cards")[0];
 var items = json.items;
@@ -50,8 +55,15 @@ for(var i = 0; i < items.length; i++) {
     var div = document.createElement("div");
     div.className += " tinder--card";
 
-    var img = document.createElement("img");
-    img.src = items[i].exerciseGif;
+    var img = document.createElement("video");
+    img.autoplay=true;
+    img.loop=true;
+    img.muted=true;
+    img.playsinline=true;
+    var source = document.createElement("source");
+    source.src =  items[i].exerciseGif;
+    source.setAttribute("type","video/mp4");
+    img.appendChild(source);
     
     var h3 = document.createElement("h3");
     h3.innerHTML = items[i].exerciseName;
@@ -90,6 +102,7 @@ var cords;
 var started = false;
 var timeElapsed;
 
+
 function theEnd(){
     
     var moveOutWidth = document.body.clientWidth * 1.5;
@@ -102,7 +115,7 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[1].src = "completed.gif";
+    newCards[0].childNodes[1].src = "completed.mp4";
     newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
     newCards[0].classList.remove('removed');
@@ -110,16 +123,21 @@ function theEnd(){
 }
 
 pp.onclick = function charge() {
-  cords = document.querySelectorAll('.tinder--card:not(.removed)'); 
-    
-    var parent = cords[0].parentNode;
+cords = document.querySelectorAll('.tinder--card:not(.removed)'); 
+var parent = cords[0].parentNode;
 // The equivalent of parent.children.indexOf(child)
 var index = Array.prototype.indexOf.call(parent.children, cords[0]);
 if(started==false){
     createButtoListener(true,1);
     timeElapsed = setInterval(totalTime,1000);
+    console.log(x);
+    x.play();
+    if(seconds<=6){
+            y.play();
+        }
 }
 if(pp1.classList[1] == "fa-play"){
+    console.log("play");
        pp1.classList.remove("fa-play"); 
     pp1.classList.remove("fa-close"); 
        pp1.classList.add("fa-pause");
@@ -131,16 +149,19 @@ if(pp1.classList[1] == "fa-play"){
     }
      time = setInterval( function() { 
             countdownSeconds(index); }, 1000 );
+    x.play();
+    
 }
     else{
+        console.log("pause");
        pp1.classList.remove("fa-pause"); 
     pp1.classList.remove("fa-close"); 
        pp1.classList.add("fa-play");
      clearInterval(time);
      clearInterval(timeElapsed);
-
+    x.pause();
+    y.pause();
     }
-    console.log(pp1.classList);
 }
 var sec = 0;
 function totalTime(){
@@ -158,6 +179,9 @@ function totalTime(){
             return;
         }
         var secondsSpan = news[index].getElementsByClassName('display-remain-time')[0];
+        if(seconds<=6){
+            y.play();
+        }
         if(seconds>=1){
         seconds = seconds - 1;}
         else{
@@ -184,7 +208,7 @@ function initCards(card, index) {
 
   newCards.forEach(function (card, index) {
     card.style.zIndex = allCards.length - index;
-    card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 30 * index + 'px)';
+    card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 1 * index + 'px)';
     card.style.opacity = (10 - index) / 10;
   });
   
@@ -240,10 +264,11 @@ var cList;
     
   hammertime.on('panend', function (event) {
       
-            if(started== false){
-       pp1.classList.remove("fa-play"); 
+    if(started== false && where==2){
+    pp1.classList.remove("fa-play"); 
     pp1.classList.remove("fa-close"); 
-       pp1.classList.add("fa-pause");
+    pp1.classList.add("fa-pause");
+    x.play(); 
     timeElapsed = setInterval(totalTime,1000);}
       started=true;
       list =  document.querySelectorAll(' .removed');
@@ -366,7 +391,13 @@ var cRemoved;
 
 function createButtonListener(love,cwhere) {
   return function (event) {
-   
+     
+    if(started== false){
+    pp1.classList.remove("fa-play"); 
+    pp1.classList.remove("fa-close"); 
+    pp1.classList.add("fa-pause");
+    x.play(); 
+    timeElapsed = setInterval(totalTime,1000);}
     started = true;
     var cards = document.querySelectorAll('.tinder--card:not(.removed)');
     var moveOutWidth = document.body.clientWidth * 1.5;
@@ -554,23 +585,33 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
 /*space and left right for laptop*/
 document.onkeydown = function(e) {
     switch (e.keyCode) {
-        case 32 :
+        case 38 :        
             console.log("mind yo psace");
-            document.getElementById('pp1').click();
+            document.getElementById('pp').click();
             break;
         case 37:
-    createButtoListener(false,2);
+            if(started==true){
+    createButtoListener(false,2);}
             break;
         case 39:    
             if(started== false){
        pp1.classList.remove("fa-play"); 
     pp1.classList.remove("fa-close"); 
        pp1.classList.add("fa-pause");
-            
-    timeElapsed = setInterval(totalTime,1000);}
+    x.play();           
+    timeElapsed = setInterval(totalTime,1000);
+}
     createButtoListener(true,1);
             break;
 
+    }
+};
+document.onkeyup = function(e) {
+    switch (e.keyCode) {
+        case 32 :        
+            console.log("mind yo psace");
+            document.getElementById('pp').click();
+            break;
     }
 };
 
