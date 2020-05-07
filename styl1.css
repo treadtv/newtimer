@@ -118,7 +118,6 @@ body {
 }
 .tinder--card video {
   max-width: 100%;
-  pointer-events: none;
 }
 
 .tinder--card h3 {
