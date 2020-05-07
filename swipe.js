@@ -267,8 +267,13 @@ for(var i = 0; i < items.length; i++) {
     img.setAttribute("playsinline","true");
     img.setAttribute("muted","true");
     var source = document.createElement("source");
+    if(items[i].exerciseName!='Rest'){
     source.src =  "https://res.cloudinary.com/tread/video/upload/"+items[i].exerciseGif;
-    source.setAttribute("type","video/mp4");
+    source.setAttribute("type","video/mp4");}
+    else {
+        source.src ="https://media.giphy.com/media/krP2NRkLqnKEg/giphy.mp4";
+        source.setAttribute("type","video/mp4");
+    }
     img.appendChild(source);
     
     var h3 = document.createElement("h3");
@@ -321,7 +326,7 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[1].src = "https://res.cloudinary.com/tread/video/upload/v1588864993/completed_ckzt95.mp4";
+    newCards[0].childNodes[1].src = "https://media.giphy.com/media/mFYgY6fXreEAuyRV3g/giphy.mp4";
     newCards[0].childNodes[1].play();
     newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
