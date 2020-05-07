@@ -265,10 +265,12 @@ for(var i = 0; i < items.length; i++) {
     img.playsinline=true;
     img.setAttribute("playsinline","true");
     img.setAttribute("muted","true");
+    img.preload = 'auto';
     var source = document.createElement("source");
     if(items[i].exerciseName!='Rest'){
     source.src =  "https://res.cloudinary.com/tread/video/upload/"+items[i].exerciseGif;
-    source.setAttribute("type","video/mp4");}
+    source.setAttribute("type","video/mp4");
+}
     else {
         source.src ="https://media.giphy.com/media/krP2NRkLqnKEg/giphy.mp4";
         source.setAttribute("type","video/mp4");
@@ -343,11 +345,6 @@ if(started==false){
     timeElapsed = setInterval(totalTime,1000);
     console.log(x);
     x.play();
-    var z = document.getElementsByTagName("video");
-    for(var i=0;i<z.length;i++){
-     z[i].play();   
-    }
-
     if(seconds<=6){
             y.play();
         }
@@ -396,14 +393,12 @@ function totalTime(){
         }
         var secondsSpan = news[index].getElementsByClassName('display-remain-time')[0];
         var video =news[index].getElementsByTagName('video')[0];
-        video.play();
         if(seconds<=6){
             y.play();
         }
         if(seconds>=1){
         seconds = seconds - 1;}
         else{
-            video.currentTime = 0;
             video.pause();
             secondsSpan.textContent = "00:00";
             var closer = createButtoListener(true,1);
@@ -425,7 +420,8 @@ var prevRemoved;
 
 function initCards(card, index) {
   var newCards = document.querySelectorAll('.tinder--card:not(.removed)');
-
+  var video = newCards[0].getElementsByTagName('video')[0];
+  video.play();
   newCards.forEach(function (card, index) {
     card.style.zIndex = allCards.length - index;
     card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 1 * index + 'px)';
