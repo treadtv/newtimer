@@ -40,7 +40,8 @@ body {
     height: 38vh;    
 }
 .tinder--card video {
-    height: 39vh;    
+    height: 45vh;
+    width:100%;
 }
 
 .tinder--status i {

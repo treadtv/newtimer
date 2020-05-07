@@ -1,45 +1,249 @@
 var json = {"items": [
     {
-   "exerciseName": "Starfish",
-   "exerciseGif": "https://drive.google.com/uc?export=download&id=1Kyg0XBDSdVuFOFmrFC0qPEJfLCisLgmW",
-    "reps" : "AMRAP",
+   "exerciseName": "Round 1: Jumping Jacks",
+   "exerciseGif":  "v1588865066/Ibbu_1_rkikxw.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
     "calories" :"1"
  },
- {
-   "exerciseName": "Jumping Jacks",
-   "exerciseGif": "workouts/jumping_jacks.mp4",
-    "reps" : "AMRAP",
+    {
+   "exerciseName": "Round 1: Sprowls",
+   "exerciseGif":  "v1588865066/Ibbu_2_mstts7.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
     "calories" :"1"
-     
  },
- {
-  "exerciseName": "Plank",
-  "exerciseGif": "workouts/plank.mp4",
-    "time":"15"
+    {
+   "exerciseName": "Round 1: Squat to T Spine Rotation",
+   "exerciseGif": "v1588865067/Ibbu_3_jw7qaz.mp4",
+    "time":"30",
+    "calories" :"1"
  },
- {
-  "exerciseName": "Arm Cs",
-  "exerciseGif": "workouts/arm_c.mp4",
-    "reps": "20",
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
  },
- {
-  "exerciseName": "Arm Circles",
-  "exerciseGif": "workouts/arm_circles.mp4",
-    "reps": "20",
-    "time":"40"
+    {
+   "exerciseName": "Round 1: Side to Side Ground Touch",
+   "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
+    "time":"30",
+    "calories" :"1"
  },
- {
-  "exerciseName": "Back Behinds",
-  "exerciseGif": "workouts/back_behinds.mp4",
-    "reps": "20",
-    "time":"40"
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
  },
- {
-  "exerciseName": "Calves Stretch",
-  "exerciseGif": "workouts/calves_stretch.mp4",
-    "time":"20"
+    {
+   "exerciseName": "Round 1: Crab to Hip Thrust",
+   "exerciseGif": "v1588865067/Ibbu_5_uscffy.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+     {
+   "exerciseName": "Round 1: High Plank Shoulder Taps",
+   "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+     {
+   "exerciseName": "Round 1: Hands-Off Burpees",
+   "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"60",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 2: Jumping Jacks",
+   "exerciseGif": "v1588865066/Ibbu_1_rkikxw.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 2: Sprowls",
+   "exerciseGif": "v1588865066/Ibbu_2_mstts7.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 2: Squat to T Spine Rotation",
+   "exerciseGif": "v1588865067/Ibbu_3_jw7qaz.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 2: Side to Side Ground Touch",
+   "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 2: Crab to Hip Thrust",
+   "exerciseGif": "v1588865067/Ibbu_5_uscffy.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+     {
+   "exerciseName": "Round 2: High Plank Shoulder Taps",
+   "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+     {
+   "exerciseName": "Round 2: Hands-Off Burpees",
+   "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"60",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 3: Jumping Jacks",
+   "exerciseGif": "v1588865066/Ibbu_1_rkikxw.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 3: Sprowls",
+   "exerciseGif": "v1588865066/Ibbu_2_mstts7.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 3: Squat to T Spine Rotation",
+   "exerciseGif": "v1588865067/Ibbu_3_jw7qaz.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 3: Side to Side Ground Touch",
+   "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Round 3: Crab to Hip Thrust",
+   "exerciseGif": "v1588865067/Ibbu_5_uscffy.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+     {
+   "exerciseName": "Round 3: High Plank Shoulder Taps",
+   "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
+    "time":"30",
+    "calories" :"1"
+ },
+    {
+   "exerciseName": "Rest",
+   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+    "time":"20",
+    "calories" :"1"
+ },
+     {
+   "exerciseName": "Round 3: Hands-Off Burpees",
+   "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
+    "time":"30",
+    "calories" :"1"
  }
 ]};
 
@@ -63,7 +267,7 @@ for(var i = 0; i < items.length; i++) {
     img.setAttribute("playsinline","true");
     img.setAttribute("muted","true");
     var source = document.createElement("source");
-    source.src = items[i].exerciseGif;
+    source.src =  "https://res.cloudinary.com/tread/video/upload/"+items[i].exerciseGif;
     source.setAttribute("type","video/mp4");
     img.appendChild(source);
     
@@ -117,7 +321,7 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[1].src = "https://github.com/treadtv/videos/completed.mp4";
+    newCards[0].childNodes[1].src = "https://res.cloudinary.com/tread/video/upload/v1588864993/completed_ckzt95.mp4";
     newCards[0].childNodes[1].play();
     newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
