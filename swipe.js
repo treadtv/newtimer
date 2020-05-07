@@ -1,14 +1,14 @@
 var json = {"items": [
     {
    "exerciseName": "Starfish",
-   "exerciseGif": "workouts//starfish.mp4",
+   "exerciseGif": "workouts/starfish.mp4",
     "reps" : "AMRAP",
     "time":"20",
     "calories" :"1"
  },
  {
    "exerciseName": "Jumping Jacks",
-   "exerciseGif": "workouts//jumping_jacks.mp4",
+   "exerciseGif": "workouts/jumping_jacks.mp4",
     "reps" : "AMRAP",
     "time":"20",
     "calories" :"1"
@@ -16,29 +16,29 @@ var json = {"items": [
  },
  {
   "exerciseName": "Plank",
-  "exerciseGif": "workouts//plank.mp4",
+  "exerciseGif": "workouts/plank.mp4",
     "time":"15"
  },
  {
   "exerciseName": "Arm Cs",
-  "exerciseGif": "workouts//arm_c.mp4",
+  "exerciseGif": "workouts/arm_c.mp4",
     "reps": "20",
  },
  {
   "exerciseName": "Arm Circles",
-  "exerciseGif": "workouts//arm_circles.mp4",
+  "exerciseGif": "workouts/arm_circles.mp4",
     "reps": "20",
     "time":"40"
  },
  {
   "exerciseName": "Back Behinds",
-  "exerciseGif": "workouts//back_behinds.mp4",
+  "exerciseGif": "workouts/back_behinds.mp4",
     "reps": "20",
     "time":"40"
  },
  {
   "exerciseName": "Calves Stretch",
-  "exerciseGif": "workouts//Calves_Stretch.mp4",
+  "exerciseGif": "workouts/calves_stretch.mp4",
     "time":"20"
  }
 ]};
@@ -63,7 +63,7 @@ for(var i = 0; i < items.length; i++) {
     img.setAttribute("playsinline","true");
     img.setAttribute("muted","true");
     var source = document.createElement("source");
-    source.src =  items[i].exerciseGif;
+    source.src =  "https://treadtv.github.io/newtimer.github.io/"+items[i].exerciseGif;
     source.setAttribute("type","video/mp4");
     img.appendChild(source);
     
@@ -117,7 +117,7 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[1].src = "completed.mp4";
+    newCards[0].childNodes[1].src = "https://treadtv.github.io/newtimer.github.io/completed.mp4";
     newCards[0].childNodes[1].play();
     newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
