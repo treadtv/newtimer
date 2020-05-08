@@ -1,5 +1,45 @@
 var json = {"items": [
     {
+   "exerciseName": "Jumping Jacks",
+   "exerciseGif":  "workouts//warmup.png",
+   "time":"30",
+   "calories" :"1",
+    "img" :"1",
+    "upnext" : "1"
+ },
+     {
+   "exerciseName": "HighKnees",
+   "exerciseGif":  "workouts//warmup.png",
+   "time":"30",
+   "calories" :"1",
+    "img" :"1",
+    "upnext" : "1"
+ },
+    {
+   "exerciseName": "Arm-Rotations",
+   "exerciseGif":  "workouts//warmup.png",
+   "time":"60",
+   "calories" :"1",
+    "img" :"1",
+        "upnext" : "1"
+ },
+    {
+   "exerciseName": "Knee Bend Leg Rotations",
+   "exerciseGif":  "workouts//warmup.png",  
+   "time":"60",
+   "calories" :"1",
+    "img" :"1",
+        "upnext" : "1"
+ },
+     {
+   "exerciseName": "Side to Side Ground Tuck",
+    "exerciseGif":  "workouts//warmup.png",
+   "time":"60",
+   "calories" :"1",
+    "img" :"1",
+    "upnext" : "1"
+ },
+     {
    "exerciseName": "Round 1: Jumping Jacks",
    "exerciseGif":  "v1588865066/Ibbu_1_rkikxw.mp4",
     "time":"30",
@@ -9,10 +49,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
-   "exerciseName": "Round 1: Sprowls",
+   "exerciseName": "Round 1: Sprawls",
    "exerciseGif":  "v1588865066/Ibbu_2_mstts7.mp4",
     "time":"30",
     "calories" :"1"
@@ -21,7 +62,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 1: Squat to T Spine Rotation",
@@ -33,10 +75,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
-   "exerciseName": "Round 1: Side to Side Ground Touch",
+   "exerciseName": "Round 1: Side to Side Ground Tuck",
    "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
     "time":"30",
     "calories" :"1"
@@ -45,7 +88,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 1: Crab to Hip Thrust",
@@ -57,10 +101,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
      {
-   "exerciseName": "Round 1: High Plank Shoulder Taps",
+   "exerciseName": "Round 1: High Plank Shoulder Tap",
    "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
     "time":"30",
     "calories" :"1"
@@ -69,10 +114,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
      {
-   "exerciseName": "Round 1: Hands-Off Burpees",
+   "exerciseName": "Round 1: Hands Off Burpees",
    "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
     "time":"30",
     "calories" :"1"
@@ -81,7 +127,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"60",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 2: Jumping Jacks",
@@ -93,10 +140,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
-   "exerciseName": "Round 2: Sprowls",
+   "exerciseName": "Round 2: Sprawls",
    "exerciseGif": "v1588865066/Ibbu_2_mstts7.mp4",
     "time":"30",
     "calories" :"1"
@@ -105,7 +153,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 2: Squat to T Spine Rotation",
@@ -117,10 +166,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
-   "exerciseName": "Round 2: Side to Side Ground Touch",
+   "exerciseName": "Round 2: Side to Side Ground Tuck",
    "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
     "time":"30",
     "calories" :"1"
@@ -129,7 +179,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 2: Crab to Hip Thrust",
@@ -141,10 +192,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
      {
-   "exerciseName": "Round 2: High Plank Shoulder Taps",
+   "exerciseName": "Round 2: High Plank Shoulder Tap",
    "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
     "time":"30",
     "calories" :"1"
@@ -153,10 +205,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
      {
-   "exerciseName": "Round 2: Hands-Off Burpees",
+   "exerciseName": "Round 2: Hands Off Burpees",
    "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
     "time":"30",
     "calories" :"1"
@@ -165,7 +218,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"60",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 3: Jumping Jacks",
@@ -180,7 +234,7 @@ var json = {"items": [
     "calories" :"1"
  },
     {
-   "exerciseName": "Round 3: Sprowls",
+   "exerciseName": "Round 3: Sprawls",
    "exerciseGif": "v1588865066/Ibbu_2_mstts7.mp4",
     "time":"30",
     "calories" :"1"
@@ -189,7 +243,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 3: Squat to T Spine Rotation",
@@ -201,10 +256,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
-   "exerciseName": "Round 3: Side to Side Ground Touch",
+   "exerciseName": "Round 3: Side to Side Ground Tuck",
    "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
     "time":"30",
     "calories" :"1"
@@ -213,7 +269,8 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
     {
    "exerciseName": "Round 3: Crab to Hip Thrust",
@@ -225,10 +282,11 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
      {
-   "exerciseName": "Round 3: High Plank Shoulder Taps",
+   "exerciseName": "Round 3: High Plank Shoulder Tap",
    "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
     "time":"30",
     "calories" :"1"
@@ -237,13 +295,54 @@ var json = {"items": [
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
     "time":"20",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
  },
      {
-   "exerciseName": "Round 3: Hands-Off Burpees",
+   "exerciseName": "Round 3: Hands Off Burpees",
    "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
     "time":"30",
-    "calories" :"1"
+    "calories" :"1",
+    "upnext" : "1"
+ },
+      {
+   "exerciseName": "Hamstring-Stretch",
+   "exerciseGif": "workouts/cooldown.jpg",
+    "time":"30",
+    "calories" :"1",
+    "upnext" : "1",
+    "img": "1"
+ },
+    {
+   "exerciseName": "Single Leg Calf Stretch",
+   "exerciseGif": "workouts/cooldown.jpg",
+    "time":"30",
+    "calories" :"1",
+    "upnext" : "1",
+    "img" : "1"
+ },
+    {
+   "exerciseName": "Glute Stretch",
+   "exerciseGif": "workouts/cooldown.jpg",
+    "time":"30",
+    "calories" :"1",
+    "upnext" : "1",
+    "img" : "1"
+ },
+    {
+   "exerciseName": "Quadricep Stretch",
+   "exerciseGif": "workouts/cooldown.jpg",
+    "time":"30",
+    "calories" :"1",
+    "upnext" : "1",
+    "img" : "1"
+ },
+    {
+   "exerciseName": "Pect Stretch",
+   "exerciseGif": "workouts/cooldown.jpg",
+    "time":"30",
+    "calories" :"1",
+    "img" : "1"
  }
 ]};
 
@@ -259,6 +358,12 @@ for(var i = 0; i < items.length; i++) {
     var div = document.createElement("div");
     div.className += " tinder--card";
 
+    
+    if(items[i].img=='1'){
+    var img = document.createElement("img");
+    img.src = items[i].exerciseGif;
+    }
+    else {
     var img = document.createElement("video");
     img.loop=true;
     img.muted=true;
@@ -267,6 +372,9 @@ for(var i = 0; i < items.length; i++) {
     img.setAttribute("muted","true");
     img.preload = 'auto';
     var source = document.createElement("source");
+    
+    
+    
     if(items[i].exerciseName!='Rest'){
     source.src =  "https://res.cloudinary.com/tread/video/upload/"+items[i].exerciseGif;
     source.setAttribute("type","video/mp4");
@@ -276,12 +384,14 @@ for(var i = 0; i < items.length; i++) {
         source.setAttribute("type","video/mp4");
     }
     img.appendChild(source);
-    
+    }
     var h3 = document.createElement("h3");
     h3.innerHTML = items[i].exerciseName;
      br = document.createElement("br");
     br1 = document.createElement("br");
     var p = document.createElement("div");
+    
+    
     if(items[i].time){
     p.className +='controlls';
     var span = document.createElement("span");
@@ -293,8 +403,18 @@ for(var i = 0; i < items.length; i++) {
     }
     
     var p1 = document.createElement("p");
+    p1.className += 'no-br';
     if(items[i].reps){
     p1.innerHTML = items[i].reps+" reps";}
+    else if(items[i].upnext && i+1<items.length){
+    if(items[i+1].exerciseName.split(":")[1]){
+    p1.innerHTML = "UP NEXT : " + items[i+1].exerciseName.split(":")[1];}
+    else {
+    p1.innerHTML = "UP NEXT : " + items[i+1].exerciseName;
+    }
+    p1.style.color = "brown";
+        p1.style.fontFamily = "Oswald";
+    }
     div.appendChild(img);
     div.appendChild(h3);
     div.appendChild(br1);
@@ -344,7 +464,6 @@ var index = Array.prototype.indexOf.call(parent.children, cords[0]);
 if(started==false){
     createButtoListener(true,1);
     timeElapsed = setInterval(totalTime,1000);
-    
     x.play();
     if(seconds<=6){
             y.play();
@@ -364,7 +483,6 @@ if(pp1.classList[1] == "fa-play"){
      time = setInterval( function() { 
             countdownSeconds(index); }, 1000 );
     x.play();
-    
 }
     else{
         console.log("pause");
@@ -422,7 +540,8 @@ var prevRemoved;
 function initCards(card, index) {
   var newCards = document.querySelectorAll('.tinder--card:not(.removed)');
   var video = newCards[0].getElementsByTagName('video')[0];
-  video.play();
+if(video){
+  video.play();}
   newCards.forEach(function (card, index) {
     card.style.zIndex = allCards.length - index;
     card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 1 * index + 'px)';
@@ -612,10 +731,14 @@ function createButtonListener(love,cwhere) {
      
     if(started== false){
     pp1.classList.remove("fa-play"); 
-    pp1.classList.remove("fa-close"); 
     pp1.classList.add("fa-pause");
     x.play(); 
     timeElapsed = setInterval(totalTime,1000);}
+    
+    if (started!=false && pp1.classList.contains("fa-play")){
+    pp1.classList.remove("fa-play"); 
+    pp1.classList.add("fa-pause");
+    }
     started = true;
     var cards = document.querySelectorAll('.tinder--card:not(.removed)');
     var moveOutWidth = document.body.clientWidth * 1.5;
@@ -719,7 +842,10 @@ function createButtoListener(love,cwhere) {
     var cards = document.querySelectorAll('.tinder--card:not(.removed)');
     console.log(cards.length);
     var moveOutWidth = document.body.clientWidth * 1.5;
-      
+       if (started!=false && pp1.classList.contains("fa-play")){
+    pp1.classList.remove("fa-play"); 
+    pp1.classList.add("fa-pause");
+    }
       cList =  document.querySelectorAll(' .removed');
       cRemoved = cList[cList.length-1];
     var card = cards[0];
