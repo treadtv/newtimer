@@ -458,13 +458,13 @@ function theEnd(){
 pp.onclick = function charge() {
 cords = document.querySelectorAll('.tinder--card:not(.removed)'); 
 var parent = cords[0].parentNode;
-    console.log("in here");
+    console.log("in here",started,pp1);
 // The equivalent of parent.children.indexOf(child)
 var index = Array.prototype.indexOf.call(parent.children, cords[0]);
 if(started==false){
-    createButtoListener(true,1);
-    timeElapsed = setInterval(totalTime,1000);
+     timeElapsed = setInterval(totalTime,1000);
     x.play();
+    createButtoListener(true,1);
     if(seconds<=6){
             y.play();
         }
@@ -518,7 +518,6 @@ function totalTime(){
         if(seconds>=1){
         seconds = seconds - 1;}
         else{
-            video.pause();
             secondsSpan.textContent = "00:00";
             var closer = createButtoListener(true,1);
             console.log("hmmm is it?");
@@ -840,12 +839,7 @@ love.addEventListener('click', loveListener);
 function createButtoListener(love,cwhere) {
     started = true;
     var cards = document.querySelectorAll('.tinder--card:not(.removed)');
-    console.log(cards.length);
     var moveOutWidth = document.body.clientWidth * 1.5;
-       if (started!=false && pp1.classList.contains("fa-play")){
-    pp1.classList.remove("fa-play"); 
-    pp1.classList.add("fa-pause");
-    }
       cList =  document.querySelectorAll(' .removed');
       cRemoved = cList[cList.length-1];
     var card = cards[0];
@@ -942,6 +936,7 @@ document.onkeydown = function(e) {
        pp1.classList.remove("fa-play"); 
     pp1.classList.remove("fa-close"); 
        pp1.classList.add("fa-pause");
+                console.log(pp1.classList);
     x.play();           
     timeElapsed = setInterval(totalTime,1000);
 }
@@ -952,8 +947,7 @@ document.onkeydown = function(e) {
 };
 document.onkeyup = function(e) {
     switch (e.keyCode) {
-        case 32 :        
-            console.log("mind yo psace");
+        case 32 : 
             document.getElementById('pp').click();
             break;
     }
