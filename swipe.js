@@ -1,7 +1,7 @@
 var json = {"items": [
     {
    "exerciseName": "Jumping Jacks",
-   "exerciseGif":  "workouts//warmup.png",
+   "exerciseGif":  "workouts//images//jumping_jacks.jpeg",
    "time":"30",
    "calories" :"1",
     "img" :"1",
@@ -9,7 +9,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "HighKnees",
-   "exerciseGif":  "workouts//warmup.png",
+   "exerciseGif":  "workouts//images//highknees.jpeg",
    "time":"30",
    "calories" :"1",
     "img" :"1",
@@ -17,7 +17,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Arm-Rotations",
-   "exerciseGif":  "workouts//warmup.png",
+   "exerciseGif":  "workouts//images//arm_circles.jpeg",
    "time":"60",
    "calories" :"1",
     "img" :"1",
@@ -25,7 +25,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Knee Bend Leg Rotations",
-   "exerciseGif":  "workouts//warmup.png",  
+   "exerciseGif":  "workouts//images//kneebend_leg_rotations.jpeg",  
    "time":"60",
    "calories" :"1",
     "img" :"1",
@@ -33,7 +33,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Side to Side Ground Tuck",
-    "exerciseGif":  "workouts//warmup.png",
+    "exerciseGif":  "workouts//images//side_to_side.jpeg",
    "time":"60",
    "calories" :"1",
     "img" :"1",
@@ -307,7 +307,7 @@ var json = {"items": [
  },
       {
    "exerciseName": "Hamstring-Stretch",
-   "exerciseGif": "workouts/cooldown.jpg",
+   "exerciseGif": "workouts//images//hamstring.jpeg",
     "time":"30",
     "calories" :"1",
     "upnext" : "1",
@@ -315,7 +315,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Single Leg Calf Stretch",
-   "exerciseGif": "workouts/cooldown.jpg",
+   "exerciseGif": "workouts//images//single_leg_calf.jpeg",
     "time":"30",
     "calories" :"1",
     "upnext" : "1",
@@ -323,7 +323,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Glute Stretch",
-   "exerciseGif": "workouts/cooldown.jpg",
+   "exerciseGif": "workouts//images//glute.jpeg",
     "time":"30",
     "calories" :"1",
     "upnext" : "1",
@@ -331,7 +331,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Quadricep Stretch",
-   "exerciseGif": "workouts/cooldown.jpg",
+   "exerciseGif": "workouts//images//quad.jpeg",
     "time":"30",
     "calories" :"1",
     "upnext" : "1",
@@ -339,7 +339,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Pect Stretch",
-   "exerciseGif": "workouts/cooldown.jpg",
+   "exerciseGif": "workouts//images//pec.jpeg",
     "time":"30",
     "calories" :"1",
     "img" : "1"
