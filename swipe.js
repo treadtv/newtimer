@@ -3,7 +3,8 @@ var json = {"items": [
        {
    "exerciseName": "Intro and Warmup",
    "exerciseGif":  "https://player.vimeo.com/external/419387638.sd.mp4?s=4dde083644800d509ab3fcfc156a909fdb400b9e&profile_id=164",
-    "muted" : "1"
+    "muted" : "1",
+    "reps" : "Swipe right after Warmup"
  },
      {
    "exerciseName": "Round 1: Jumping Jacks",
@@ -271,6 +272,12 @@ var json = {"items": [
     "calories" :"1",
     "upnext" : "1"
  },
+     {
+   "exerciseName": "Great Job!",
+   "exerciseGif": "https://player.vimeo.com/external/419408882.sd.mp4?s=36bac625e9ebc44260727815b6d25bd89e5720b5&profile_id=165",
+         "reps" : "Swipe right for the cooldown",
+         "muted" : "1"
+ },
       {
    "exerciseName": "Hamstring-Stretch",
    "exerciseGif": "workouts//images//hamstring.jpeg",
@@ -331,12 +338,13 @@ for(var i = 0; i < items.length; i++) {
     }
     else {
     var img = document.createElement("video");
-    img.loop=true;
+    
     if(items[i].muted=='1'){
     img.muted=false;
-        img.id = 'mute';}
+        img.id = 'mute';img.loop=false;}
     else{
         img.muted = true;
+        img.loop=true;
     }
     img.playsinline=true;
     img.setAttribute("playsinline","true");
@@ -417,7 +425,7 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[0].src = "//completed.jpg";
+    newCards[0].childNodes[3].src = "workouts//completed.jpg";
     newCards[0].childNodes[7].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
     newCards[0].classList.remove('removed');
@@ -448,7 +456,14 @@ if(pp1.classList[1] == "fa-play"){
     }
      time = setInterval( function() { 
             countdownSeconds(index); }, 1000 );
-    x.play();
+    if(video.id == 'mute'){
+    x.pause();
+    y.pause();
+    console.log('yolo',x);
+}
+    else {
+        x.play();
+    }
 }
     else{
         console.log("pause");
