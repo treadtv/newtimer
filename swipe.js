@@ -1,47 +1,13 @@
 var json = {"items": [
-    {
-   "exerciseName": "Jumping Jacks",
-   "exerciseGif":  "workouts//images//jumping_jacks.jpeg",
-   "time":"30",
-   "calories" :"1",
-    "img" :"1",
-    "upnext" : "1"
- },
-     {
-   "exerciseName": "HighKnees",
-   "exerciseGif":  "workouts//images//highknees.jpeg",
-   "time":"30",
-   "calories" :"1",
-    "img" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Arm-Rotations",
-   "exerciseGif":  "workouts//images//arm_circles.jpeg",
-   "time":"60",
-   "calories" :"1",
-    "img" :"1",
-        "upnext" : "1"
- },
-    {
-   "exerciseName": "Knee Bend Leg Rotations",
-   "exerciseGif":  "workouts//images//kneebend_leg_rotations.jpeg",  
-   "time":"60",
-   "calories" :"1",
-    "img" :"1",
-        "upnext" : "1"
- },
-     {
-   "exerciseName": "Side to Side Ground Tuck",
-    "exerciseGif":  "workouts//images//side_to_side.jpeg",
-   "time":"60",
-   "calories" :"1",
-    "img" :"1",
-    "upnext" : "1"
+    
+       {
+   "exerciseName": "Intro and Warmup",
+   "exerciseGif":  "https://player.vimeo.com/external/419387638.sd.mp4?s=4dde083644800d509ab3fcfc156a909fdb400b9e&profile_id=164",
+    "muted" : "1"
  },
      {
    "exerciseName": "Round 1: Jumping Jacks",
-   "exerciseGif":  "v1588865066/Ibbu_1_rkikxw.mp4",
+   "exerciseGif":  "https://player.vimeo.com/external/419369218.sd.mp4?s=99f78af5eba594c8d2f2a4107742a267c5023dff&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -54,7 +20,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 1: Sprawls",
-   "exerciseGif":  "v1588865066/Ibbu_2_mstts7.mp4",
+   "exerciseGif":  "https://player.vimeo.com/external/419369265.sd.mp4?s=f87cdac9086ed560ea8a96e087b03cd35346f751&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -67,7 +33,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 1: Squat to T Spine Rotation",
-   "exerciseGif": "v1588865067/Ibbu_3_jw7qaz.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419375054.sd.mp4?s=63ab6b8cae5527086c5ff48d5443c4041495bd4c&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -80,7 +46,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 1: Side to Side Ground Tuck",
-   "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369364.sd.mp4?s=046d89f71828838586dfa8b43f8a379387d2876d&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -93,7 +59,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 1: Crab to Hip Thrust",
-   "exerciseGif": "v1588865067/Ibbu_5_uscffy.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369402.sd.mp4?s=d68caa05a390370745cc91eddf8d60caaf61cd02&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -106,7 +72,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Round 1: High Plank Shoulder Tap",
-   "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369455.sd.mp4?s=45a3c323ab2b6e3da203bcb6802bc273741bfc18&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -119,7 +85,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Round 1: Hands Off Burpees",
-   "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369499.sd.mp4?s=6443f8f5a3bd15b503ec0cd234c1d32c9a5744cd&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -132,7 +98,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 2: Jumping Jacks",
-   "exerciseGif": "v1588865066/Ibbu_1_rkikxw.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369218.sd.mp4?s=99f78af5eba594c8d2f2a4107742a267c5023dff&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -145,7 +111,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 2: Sprawls",
-   "exerciseGif": "v1588865066/Ibbu_2_mstts7.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369265.sd.mp4?s=f87cdac9086ed560ea8a96e087b03cd35346f751&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -158,7 +124,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 2: Squat to T Spine Rotation",
-   "exerciseGif": "v1588865067/Ibbu_3_jw7qaz.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419375054.sd.mp4?s=63ab6b8cae5527086c5ff48d5443c4041495bd4c&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -171,7 +137,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 2: Side to Side Ground Tuck",
-   "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369364.sd.mp4?s=046d89f71828838586dfa8b43f8a379387d2876d&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -184,7 +150,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 2: Crab to Hip Thrust",
-   "exerciseGif": "v1588865067/Ibbu_5_uscffy.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369402.sd.mp4?s=d68caa05a390370745cc91eddf8d60caaf61cd02&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -197,7 +163,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Round 2: High Plank Shoulder Tap",
-   "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369455.sd.mp4?s=45a3c323ab2b6e3da203bcb6802bc273741bfc18&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -210,7 +176,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Round 2: Hands Off Burpees",
-   "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369499.sd.mp4?s=6443f8f5a3bd15b503ec0cd234c1d32c9a5744cd&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -223,7 +189,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 3: Jumping Jacks",
-   "exerciseGif": "v1588865066/Ibbu_1_rkikxw.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369218.sd.mp4?s=99f78af5eba594c8d2f2a4107742a267c5023dff&profile_id=164s",
     "time":"30",
     "calories" :"1"
  },
@@ -235,7 +201,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 3: Sprawls",
-   "exerciseGif": "v1588865066/Ibbu_2_mstts7.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369265.sd.mp4?s=f87cdac9086ed560ea8a96e087b03cd35346f751&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -248,7 +214,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 3: Squat to T Spine Rotation",
-   "exerciseGif": "v1588865067/Ibbu_3_jw7qaz.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419375054.sd.mp4?s=63ab6b8cae5527086c5ff48d5443c4041495bd4c&profile_id=164",
     "time":"30",
     "calories" :"1"
  },
@@ -261,7 +227,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 3: Side to Side Ground Tuck",
-   "exerciseGif": "v1588865067/Ibbu_4_nkcb7l.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369364.sd.mp4?s=046d89f71828838586dfa8b43f8a379387d2876d&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -274,7 +240,7 @@ var json = {"items": [
  },
     {
    "exerciseName": "Round 3: Crab to Hip Thrust",
-   "exerciseGif": "v1588865067/Ibbu_5_uscffy.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369402.sd.mp4?s=d68caa05a390370745cc91eddf8d60caaf61cd02&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -287,7 +253,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Round 3: High Plank Shoulder Tap",
-   "exerciseGif": "v1588865066/Ibbu_6_un8rzr.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369455.sd.mp4?s=45a3c323ab2b6e3da203bcb6802bc273741bfc18&profile_id=165",
     "time":"30",
     "calories" :"1"
  },
@@ -300,7 +266,7 @@ var json = {"items": [
  },
      {
    "exerciseName": "Round 3: Hands Off Burpees",
-   "exerciseGif": "v1588865068/Ibbu_7_mpyqeh.mp4",
+   "exerciseGif": "https://player.vimeo.com/external/419369499.sd.mp4?s=6443f8f5a3bd15b503ec0cd234c1d32c9a5744cd&profile_id=164",
     "time":"30",
     "calories" :"1",
     "upnext" : "1"
@@ -366,7 +332,12 @@ for(var i = 0; i < items.length; i++) {
     else {
     var img = document.createElement("video");
     img.loop=true;
-    img.muted=true;
+    if(items[i].muted=='1'){
+    img.muted=false;
+        img.id = 'mute';}
+    else{
+        img.muted = true;
+    }
     img.playsinline=true;
     img.setAttribute("playsinline","true");
     img.setAttribute("muted","true");
@@ -374,9 +345,8 @@ for(var i = 0; i < items.length; i++) {
     var source = document.createElement("source");
     
     
-    
     if(items[i].exerciseName!='Rest'){
-    source.src =  "https://res.cloudinary.com/tread/video/upload/"+items[i].exerciseGif;
+    source.src = items[i].exerciseGif;
     source.setAttribute("type","video/mp4");
 }
     else {
@@ -447,9 +417,8 @@ function theEnd(){
         minute = minute < 10 ? "0" + minute : minute;
         second = second < 10 ? "0" + second : second;
      var buttons = document.getElementsByClassName('tinder--buttons');
-    newCards[0].childNodes[1].src = "https://media.giphy.com/media/mFYgY6fXreEAuyRV3g/giphy.mp4";
-    newCards[0].childNodes[1].play();
-    newCards[0].childNodes[5].innerHTML = "Workout Time : "+minute+":"+second ;
+    newCards[0].childNodes[0].src = "//completed.jpg";
+    newCards[0].childNodes[7].innerHTML = "Workout Time : "+minute+":"+second ;
     newCards[0].style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
     newCards[0].classList.remove('removed');
     initCards();
@@ -463,11 +432,7 @@ var parent = cords[0].parentNode;
 var index = Array.prototype.indexOf.call(parent.children, cords[0]);
 if(started==false){
      timeElapsed = setInterval(totalTime,1000);
-    x.play();
     createButtoListener(true,1);
-    if(seconds<=6){
-            y.play();
-        }
 }
 if(pp1.classList[1] == "fa-play"){
     console.log("play");
@@ -476,6 +441,7 @@ if(pp1.classList[1] == "fa-play"){
        pp1.classList.add("fa-pause");
      clearInterval(timeElapsed);
      clearInterval(time);
+    cords[0].childNodes[0].play();
     timeElapsed = setInterval(totalTime,1000);
     if(index==0){
         index++;
@@ -491,8 +457,10 @@ if(pp1.classList[1] == "fa-play"){
        pp1.classList.add("fa-play");
      clearInterval(time);
      clearInterval(timeElapsed);
+    cords[0].childNodes[0].pause();
     x.pause();
     y.pause();
+        
     }
 }
 var sec = 0;
@@ -538,9 +506,24 @@ var prevRemoved;
 
 function initCards(card, index) {
   var newCards = document.querySelectorAll('.tinder--card:not(.removed)');
+       if (newCards.length == 0)
+        {
+            theEnd();
+            return;
+        }
   var video = newCards[0].getElementsByTagName('video')[0];
+     
 if(video){
-  video.play();}
+video.currentTime = 0;
+  video.play();
+if(video.id == 'mute'){
+    x.pause();
+    console.log('yolo',x);
+}
+    else {
+        x.play();
+    }}
+
   newCards.forEach(function (card, index) {
     card.style.zIndex = allCards.length - index;
     card.style.transform = 'scale(' + (20 - index) / 20 + ') translateY(-' + 1 * index + 'px)';
@@ -598,6 +581,7 @@ var cList;
     
     
   hammertime.on('panend', function (event) {
+        clearInterval(time);
       console.log(started,where,"tym");
     if(started==false && where==1){
     pp1.classList.remove("fa-play"); 
@@ -646,6 +630,8 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
     var keep = Math.abs(event.deltaX) < 60 || Math.abs(event.velocityX) < 0.5;
       if(where==1){
       event.target.classList.toggle('removed', !keep);
+    if(cards[0].childNodes[0].tagName=='VIDEO'){
+    cards[0].childNodes[0].pause();}
         }
       if(where==2){
      event.target.classList.toggle('removed', !keep);
@@ -683,6 +669,7 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
         else {
              console.log(json.items[index1-1],index1,"passsed");
              seconds = json.items[index1-1].time;
+            clearInterval(time);
             time = setInterval( function() { 
             countdownSeconds(index1); }, 1000 )
         }
@@ -726,6 +713,7 @@ var cRemoved;
 
 
 function createButtonListener(love,cwhere) {
+        clearInterval(time);
   return function (event) {
      
     if(started== false){
@@ -767,12 +755,14 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
                pp1.classList.add("fa-close");
     }
     if (cwhere==1){
-    card.classList.add('removed');}
+    card.classList.add('removed');
+    if(cards[0].childNodes[0].tagName=='VIDEO'){
+    cards[0].childNodes[0].pause();}}
     if (cwhere==2){
    // console.log("yooh",cRemoved.childNodes);
     cRemoved.classList.toggle('removed');
-    }
 
+    }
     if (love) {
       card.style.transform = 'translate(' + moveOutWidth + 'px, -100px) rotate(-30deg)'; 
         clearInterval(time);
@@ -837,6 +827,7 @@ love.addEventListener('click', loveListener);
 
 /*for the keyboard buttons*/
 function createButtoListener(love,cwhere) {
+        clearInterval(time);
     started = true;
     var cards = document.querySelectorAll('.tinder--card:not(.removed)');
     var moveOutWidth = document.body.clientWidth * 1.5;
@@ -863,7 +854,9 @@ var index = Array.prototype.indexOf.call(parent.children, card2);
                pp1.classList.add("fa-close");
     }
     if (cwhere==1){
-    card.classList.add('removed');}
+    card.classList.add('removed');
+    if(cards[0].childNodes[0].tagName=='VIDEO'){
+    cards[0].childNodes[0].pause();}}
     if (cwhere==2){
    // console.log("yooh",cRemoved.childNodes);
     cRemoved.classList.toggle('removed');
