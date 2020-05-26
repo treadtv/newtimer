@@ -1,5 +1,5 @@
  $.ajax({
-            url: "https://cors-anywhere.herokuapp.com/https://tread-timer.herokuapp.com/api",
+            url: "https://cors-anywhere.herokuapp.com/https://tread-builder.herokuapp.com/api/5ec90ab4af71430017063916",
             type: "GET",
             crossDomain: true,
             dataType: "json",
@@ -7,13 +7,36 @@
                 console.log(response); 
                 $(".loader-wrapper").fadeOut("slow");
       $('.tinder').css("visibility", "visible");
-var json = response;
+var json = response[0];
+var items = json.items; 
+console.log(items);
+var dupITEMS = items.length;
+for(var j = 0; j < items.length; j++) {
+    console.log(items[j],j);
+    if(items[j].reps=="0"){
+        delete items[j].reps;
+    }
+    if(items[j].time=="0"){
+        delete items[j].time;
+    }
+if(items[j].rest!='0'){
+    var time = items[j].rest.toString();
+var item =  {
+   "excerciseName": "Rest",
+    "time":time,
+    "calories" :"1",
+    "upnext" : "1",
+    "rest" : "0"
+ };
+    console.log("ding",time,item,j); 
+    items.splice(j+1,0,item);
+}
+}     
 var x = document.getElementById("myAudio"); 
 var y = document.getElementById("beep"); 
 
-console.log(items)
 var news = document.getElementsByClassName("tinder--cards")[0];
-var items = json.items;
+
 var br,br1;
 for(var i = 0; i < items.length; i++) {
     var div = document.createElement("div");
@@ -22,7 +45,7 @@ for(var i = 0; i < items.length; i++) {
     
     if(items[i].img=='1'){
     var img = document.createElement("img");
-    img.src = items[i].exerciseGif;
+    img.src = items[i].excerciseGIF;
     }
     else {
     var img = document.createElement("video");
@@ -41,8 +64,8 @@ for(var i = 0; i < items.length; i++) {
     var source = document.createElement("source");
     
     
-    if(items[i].exerciseName!='Rest'){
-    source.src = items[i].exerciseGif;
+    if(items[i].excerciseName!='Rest'){
+    source.src = items[i].excerciseGIF;
     source.setAttribute("type","video/mp4");
 }
     else {
@@ -52,7 +75,7 @@ for(var i = 0; i < items.length; i++) {
     img.appendChild(source);
     }
     var h3 = document.createElement("h3");
-    h3.innerHTML = items[i].exerciseName;
+    h3.innerHTML = items[i].excerciseName;
      br = document.createElement("br");
     br1 = document.createElement("br");
     var p = document.createElement("div");
@@ -73,10 +96,10 @@ for(var i = 0; i < items.length; i++) {
     if(items[i].reps){
     p1.innerHTML = items[i].reps+" reps";}
     else if(items[i].upnext && i+1<items.length){
-    if(items[i+1].exerciseName.split(":")[1]){
-    p1.innerHTML = "UP NEXT : " + items[i+1].exerciseName.split(":")[1];}
+    if(items[i+1].excerciseName.split(":")[1]){
+    p1.innerHTML = "UP NEXT : " + items[i+1].excerciseName.split(":")[1];}
     else {
-    p1.innerHTML = "UP NEXT : " + items[i+1].exerciseName;
+    p1.innerHTML = "UP NEXT : " + items[i+1].excerciseName;
     }
     p1.style.color = "brown";
         p1.style.fontFamily = "Oswald";

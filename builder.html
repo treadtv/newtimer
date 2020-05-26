@@ -1,0 +1,96 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" />
+    <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-sortable/0.9.13/jquery-sortable-min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js"></script>
+</head>
+<body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+   <h2>Build your Workout on tread timer</h2>
+<div id="jsGrid"></div>
+
+
+<script>
+        
+var CopyField = function(config) {
+    jsGrid.Field.call(this, config);
+};
+ 
+CopyField.prototype = new jsGrid.Field({
+ 
+    css: "copy-field",            // redefine general property 'css'
+    align: "center",              // redefine general property 'align'
+  
+    itemTemplate: function(value, item) {
+         return $("<button>")
+                .text("Copy")
+                .on("click", function(e) {
+                    var copy = $.extend({}, item, {Name: item.Name});
+                    $("#jsGrid").jsGrid("insertItem",copy);
+                    e.stopPropagation();
+                });
+    }
+});
+jsGrid.fields.copycontrol = CopyField;
+
+var clients = [
+        { "Workout Name": "Pushups", "Workout Gif": "https://player.vimeo.com/external/419387638.sd.mp4?s=4dde083644800d509ab3fcfc156a909fdb400b9e&profile_id=164" },
+        { "Workout Name": "Pullups", "Workout Gif": "https://player.vimeo.com/external/419387638.sd.mp4?s=4dde083644800d509ab3fcfc156a909fdb400b9e&profile_id=164" },
+        { "Workout Name": "Squats", "Workout Gif": "https://player.vimeo.com/external/419387638.sd.mp4?s=4dde083644800d509ab3fcfc156a909fdb400b9e&profile_id=164" }
+    ];
+    
+    $("#jsGrid").jsGrid({
+        width: "900px",
+        height: "400px",
+ 
+        inserting: true,
+        editing: true,
+        sorting: true,
+        paging: true,
+ 
+        data: clients,
+ 
+        fields: [
+            { name: "Workout Name", type: "text", width: 150, validate: "required" },
+            { name: "Workout Gif", 
+              type: "text", width: 450, validate: "required"
+            },
+            { name: "Reps", type: "number", width: 60},
+            { name: "Time in Seconds", type: "number", width: 80},
+          {
+            type: "control"
+          },
+          {
+            type: "copycontrol"
+          }
+          ],
+        onRefreshed: function() {
+            var $gridData = $("#jsGrid .jsgrid-grid-body tbody");
+ 
+            $gridData.sortable({
+                update: function(e, ui) {
+                    // array of indexes
+                    var clientIndexRegExp = /\s*client-(\d+)\s*/;
+                    var indexes = $.map($gridData.sortable("toArray", { attribute: "class" }), function(classes) {
+                    });
+                    // arrays of items
+                    var items = $.map($gridData.find("tr"), function(row) {
+                        return $(row).data("JSGridItem");
+                    });
+                    console && console.log("Reordered items", items);
+                }
+            });
+
+    }
+    
+    });
+ 
+
+ 
+</script>
+
+</body>
+</html>

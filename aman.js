@@ -2,323 +2,149 @@
 var json = {"items": [
     
        {
-   "exerciseName": "Intro and Warmup",
-   "exerciseGif":  "https://player.vimeo.com/external/419387638.sd.mp4?s=4dde083644800d509ab3fcfc156a909fdb400b9e&profile_id=164",
-    "muted" : "1",
-    "reps" : "Swipe right after Warmup"
- },
-     {
-   "exerciseName": "Round 1: Jumping Jacks",
-   "exerciseGif":  "https://player.vimeo.com/external/419369218.sd.mp4?s=99f78af5eba594c8d2f2a4107742a267c5023dff&profile_id=164",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+   "exerciseName": "Exercise 1 Set 1: Pushups",
+   "exerciseGif":  "https://tread.imfast.io/Aman/pushup.mp4",
+    "reps":"10-12",
     "calories" :"1",
-    "upnext" : "1"
+           "upnext" : "1"
  },
-    {
-   "exerciseName": "Round 1: Sprawls",
-   "exerciseGif":  "https://player.vimeo.com/external/419369265.sd.mp4?s=f87cdac9086ed560ea8a96e087b03cd35346f751&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+       {
+   "exerciseName": "Exercise 1 Set 2: Pushups",
+   "exerciseGif":  "https://tread.imfast.io/Aman/pushup.mp4",
+    "reps":"10-12",
     "calories" :"1",
-    "upnext" : "1"
+           "upnext" : "1"
  },
-
-    {
-   "exerciseName": "Round 1: Squat to T Spine Rotation",
-   "exerciseGif": "https://player.vimeo.com/external/419375054.sd.mp4?s=63ab6b8cae5527086c5ff48d5443c4041495bd4c&profile_id=164",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+       {
+   "exerciseName": "Exercise 1 Set 3: Pushups",
+   "exerciseGif":  "https://tread.imfast.io/Aman/pushup.mp4",
+    "reps":"10-12",
     "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 1: Side to Side Ground Tuck",
-   "exerciseGif": "https://player.vimeo.com/external/419369364.sd.mp4?s=046d89f71828838586dfa8b43f8a379387d2876d&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+           "upnext" : "1"
+ }, 
+       {
+   "exerciseName": "Exercise 2 Set 1: Bench Dips",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bench_dip.mp4",
+    "reps":"8-10",
     "calories" :"1",
-    "upnext" : "1"
+           "upnext" : "1"
  },
-    {
-   "exerciseName": "Round 1: Crab to Hip Thrust",
-   "exerciseGif": "https://player.vimeo.com/external/419369402.sd.mp4?s=d68caa05a390370745cc91eddf8d60caaf61cd02&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+       {
+   "exerciseName": "Exercise 2 Set 2: Bench Dips",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bench_dip.mp4",
+    "reps":"8-10",
     "calories" :"1",
-    "upnext" : "1"
+           "upnext" : "1"
  },
-     {
-   "exerciseName": "Round 1: High Plank Shoulder Tap",
-   "exerciseGif": "https://player.vimeo.com/external/419369455.sd.mp4?s=45a3c323ab2b6e3da203bcb6802bc273741bfc18&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+       {
+   "exerciseName": "Exercise 2 Set 3: Bench Dips",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bench_dip.mp4",
+    "reps":"8-10",
     "calories" :"1",
-    "upnext" : "1"
+           "upnext" : "1"
  },
-     {
-   "exerciseName": "Round 1: Hands Off Burpees",
-   "exerciseGif": "https://player.vimeo.com/external/419369499.sd.mp4?s=6443f8f5a3bd15b503ec0cd234c1d32c9a5744cd&profile_id=164",
-    "time":"30",
-    "calories" :"1"
+    
+       {
+   "exerciseName": "Exercise 3 Set 1: Resistance Band Bicep Curls",
+   "exerciseGif":  "https://tread.imfast.io/Aman/resistance_band_bicep_curls.mp4",
+    "reps":"8-12",
+    "calories" :"1",
+           "upnext" : "1"
  },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
+       {
+   "exerciseName": "Exercise 2 Set 2:Resistance Band Bicep Curls",
+   "exerciseGif":  "https://tread.imfast.io/Aman/resistance_band_bicep_curls.mp4",
+    "reps":"8-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+       {
+   "exerciseName": "Exercise 2 Set 3: Resistance Band Bicep Curls",
+   "exerciseGif":  "https://tread.imfast.io/Aman/resistance_band_bicep_curls.mp4",
+    "reps":"8-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+   
+       {
+   "exerciseName": "Exercise 3 Set 1: Body Weight Squats",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bodyweight_squats.mp4",
+    "reps":"10-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+       {
+   "exerciseName": "Exercise 2 Set 2: Body Weight Squats",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bodyweight_squats.mp4",
+    "reps":"10-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+       {
+   "exerciseName": "Exercise 2 Set 3: Body Weight Squats",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bodyweight_squats.mp4",
+    "reps":"10-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+    
+       {
+   "exerciseName": "Exercise 4 Set 1: Lunges",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bodyweight_squats.mp4",
+    "reps":"8-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+       {
+   "exerciseName": "Exercise 4 Set 2: Lunges",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bodyweight_squats.mp4",
+    "reps":"8-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+       {
+   "exerciseName": "Exercise 4 Set 3: Lunges",
+   "exerciseGif":  "https://tread.imfast.io/Aman/bodyweight_squats.mp4",
+    "reps":"8-12",
+    "calories" :"1",
+           "upnext" : "1"
+ },
+    
+       {
+   "exerciseName": "Exercise 5 Set 1: Plank",
+   "exerciseGif":  "https://tread.imfast.io/Aman/plank.mp4",
     "time":"60",
     "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 2: Jumping Jacks",
-   "exerciseGif": "https://player.vimeo.com/external/419369218.sd.mp4?s=99f78af5eba594c8d2f2a4107742a267c5023dff&profile_id=164",
-    "time":"30",
-    "calories" :"1"
- },
-    {
+           "upnext" : "1"
+ },{
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+    "time":"15",
     "calories" :"1",
     "upnext" : "1"
  },
-    {
-   "exerciseName": "Round 2: Sprawls",
-   "exerciseGif": "https://player.vimeo.com/external/419369265.sd.mp4?s=f87cdac9086ed560ea8a96e087b03cd35346f751&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
+       {
+   "exerciseName": "Exercise 5 Set 2: Plank",
+   "exerciseGif":  "https://tread.imfast.io/Aman/plank.mp4",
+    "reps":"60",
+    "calories" :"1",
+           "upnext" : "1"
+ },{
    "exerciseName": "Rest",
    "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+    "time":"15",
     "calories" :"1",
     "upnext" : "1"
  },
-    {
-   "exerciseName": "Round 2: Squat to T Spine Rotation",
-   "exerciseGif": "https://player.vimeo.com/external/419375054.sd.mp4?s=63ab6b8cae5527086c5ff48d5443c4041495bd4c&profile_id=164",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
+       {
+   "exerciseName": "Exercise 5 Set 3: Plank",
+   "exerciseGif":  "https://tread.imfast.io/Aman/plank.mp4",
+    "reps":"60",
     "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 2: Side to Side Ground Tuck",
-   "exerciseGif": "https://player.vimeo.com/external/419369364.sd.mp4?s=046d89f71828838586dfa8b43f8a379387d2876d&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 2: Crab to Hip Thrust",
-   "exerciseGif": "https://player.vimeo.com/external/419369402.sd.mp4?s=d68caa05a390370745cc91eddf8d60caaf61cd02&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-     {
-   "exerciseName": "Round 2: High Plank Shoulder Tap",
-   "exerciseGif": "https://player.vimeo.com/external/419369455.sd.mp4?s=45a3c323ab2b6e3da203bcb6802bc273741bfc18&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-     {
-   "exerciseName": "Round 2: Hands Off Burpees",
-   "exerciseGif": "https://player.vimeo.com/external/419369499.sd.mp4?s=6443f8f5a3bd15b503ec0cd234c1d32c9a5744cd&profile_id=164",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"60",
-    "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 3: Jumping Jacks",
-   "exerciseGif": "https://player.vimeo.com/external/419369218.sd.mp4?s=99f78af5eba594c8d2f2a4107742a267c5023dff&profile_id=164s",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Round 3: Sprawls",
-   "exerciseGif": "https://player.vimeo.com/external/419369265.sd.mp4?s=f87cdac9086ed560ea8a96e087b03cd35346f751&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 3: Squat to T Spine Rotation",
-   "exerciseGif": "https://player.vimeo.com/external/419375054.sd.mp4?s=63ab6b8cae5527086c5ff48d5443c4041495bd4c&profile_id=164",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 3: Side to Side Ground Tuck",
-   "exerciseGif": "https://player.vimeo.com/external/419369364.sd.mp4?s=046d89f71828838586dfa8b43f8a379387d2876d&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-    {
-   "exerciseName": "Round 3: Crab to Hip Thrust",
-   "exerciseGif": "https://player.vimeo.com/external/419369402.sd.mp4?s=d68caa05a390370745cc91eddf8d60caaf61cd02&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-     {
-   "exerciseName": "Round 3: High Plank Shoulder Tap",
-   "exerciseGif": "https://player.vimeo.com/external/419369455.sd.mp4?s=45a3c323ab2b6e3da203bcb6802bc273741bfc18&profile_id=165",
-    "time":"30",
-    "calories" :"1"
- },
-    {
-   "exerciseName": "Rest",
-   "exerciseGif": "v1588864993/rest_fmpgsz.mp4",
-    "time":"20",
-    "calories" :"1",
-    "upnext" : "1"
- },
-     {
-   "exerciseName": "Round 3: Hands Off Burpees",
-   "exerciseGif": "https://player.vimeo.com/external/419369499.sd.mp4?s=6443f8f5a3bd15b503ec0cd234c1d32c9a5744cd&profile_id=164",
-    "time":"30",
-    "calories" :"1",
-    "upnext" : "1"
- },
-     {
-   "exerciseName": "Great Job!",
-   "exerciseGif": "https://player.vimeo.com/external/419408882.sd.mp4?s=36bac625e9ebc44260727815b6d25bd89e5720b5&profile_id=165",
-         "reps" : "Swipe right for the cooldown",
-         "muted" : "1"
- },
-      {
-   "exerciseName": "Hamstring-Stretch",
-   "exerciseGif": "workouts//images//hamstring.jpeg",
-    "time":"30",
-    "calories" :"1",
-    "upnext" : "1",
-    "img": "1"
- },
-    {
-   "exerciseName": "Single Leg Calf Stretch",
-   "exerciseGif": "workouts//images//single_leg_calf.jpeg",
-    "time":"30",
-    "calories" :"1",
-    "upnext" : "1",
-    "img" : "1"
- },
-    {
-   "exerciseName": "Glute Stretch",
-   "exerciseGif": "workouts//images//glute.jpeg",
-    "time":"30",
-    "calories" :"1",
-    "upnext" : "1",
-    "img" : "1"
- },
-    {
-   "exerciseName": "Quadricep Stretch",
-   "exerciseGif": "workouts//images//quad.jpeg",
-    "time":"30",
-    "calories" :"1",
-    "upnext" : "1",
-    "img" : "1"
- },
-    {
-   "exerciseName": "Pect Stretch",
-   "exerciseGif": "workouts//images//pec.jpeg",
-    "time":"30",
-    "calories" :"1",
-    "img" : "1"
+           "upnext" : "1"
  }
+    
+ 
 ]};
 
 var x = document.getElementById("myAudio"); 
@@ -377,22 +203,23 @@ for(var i = 0; i < items.length; i++) {
     span.innerHTML = items[i].time;
     span.className += 'display-remain-time';
     p.append(span);}
-    else {
-        p.innerHTML = "<br>";
-    }
     
-    var p1 = document.createElement("p");
-    p1.className += 'no-br';
+    
+    var p1 = document.createElement("span");    
+
     if(items[i].reps){
     p1.innerHTML = items[i].reps+" reps";}
-    else if(items[i].upnext && i+1<items.length){
+    
+    var p2 = document.createElement("p"); 
+    if(items[i].upnext && i+1<items.length){
+    console.log(items[i].upnext,items[i+1].exerciseName.split(":"));
     if(items[i+1].exerciseName.split(":")[1]){
-    p1.innerHTML = "UP NEXT : " + items[i+1].exerciseName.split(":")[1];}
+    p2.innerHTML += "<br>UP NEXT : " + items[i+1].exerciseName.split(":")[1];}
     else {
-    p1.innerHTML = "UP NEXT : " + items[i+1].exerciseName;
+    p2.innerHTML += "<br>UP NEXT : " + items[i+1].exerciseName;
     }
-    p1.style.color = "brown";
-        p1.style.fontFamily = "Oswald";
+    p2.style.color = "brown";
+        p2.style.fontFamily = "Oswald";
     }
     div.appendChild(img);
     div.appendChild(h3);
@@ -400,6 +227,7 @@ for(var i = 0; i < items.length; i++) {
     div.appendChild(p);
     div.appendChild(br);
     div.appendChild(p1);
+    div.appendChild(p2);
     news.appendChild(div);
 }
 /*initializing content above*/

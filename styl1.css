@@ -83,7 +83,7 @@ align-self :center;
     height: 38vh;    
 }
 .tinder--card video {
-    height: 42vh;
+    height: 50%;
     width:100%;
 }
 
@@ -191,7 +191,7 @@ align-self :center;
   pointer-events: none;
 }
 .tinder--card span {
-  font-size: 2em;
+  font-size: 20px;
 }
 
 #invisible {
